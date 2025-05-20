@@ -123,16 +123,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Mansoor Akhtar**
 - Computer Science Graduate
 - Software Developer at Torch Solutions
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-- [GitHub](https://github.com/yourusername)
+- [LinkedIn](https://www.linkedin.com/in/mansoor-akhtar-15b075213/)
+- [GitHub](https://github.com/httpsMansoor)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/portfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/httpsMansoor/portfolio/issues).
 
 ## 📞 Contact
 
 For any queries or suggestions, please reach out:
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn Profile]
-- Twitter: [@YourTwitterHandle] 
+- Email: mansoorkhanabbaxi@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/mansoor-akhtar-15b075213/]
