@@ -181,8 +181,8 @@ document.addEventListener('DOMContentLoaded', () => {
   AOS.init({
     duration: 1000,
     easing: "ease-in-out",
-    once: true,
-    mirror: false
+    once: false,
+    mirror: true
   });
 
   /**
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const getStartedButton = select('.hero .btn-get-started');
 
   if (heroSection && getStartedButton) {
-    const sensitivity = 0.02; // Controls how much the button moves
+    const sensitivity = 0.05; // Controls how much the button moves
 
     heroSection.addEventListener('mousemove', (e) => {
       const { clientX, clientY } = e;
