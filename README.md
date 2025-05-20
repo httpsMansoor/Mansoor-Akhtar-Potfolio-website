@@ -9,7 +9,7 @@ A modern, responsive portfolio website showcasing my professional journey, skill
 - **Responsive Design**: Seamless experience across all devices and screen sizes
 - **Modern UI/UX**: Clean, intuitive interface with smooth animations
 - **Interactive Elements**: Dynamic content presentation with AOS animations
-- **Portfolio Showcase**: Elegant project display with GLightbox integration
+- **Portfolio Showcase**: Elegant project display with responsive image gallery
 - **Contact Form**: Easy-to-use contact interface
 - **Social Integration**: Direct links to professional social media profiles
 - **Performance Optimized**: Fast loading times and smooth scrolling
@@ -21,7 +21,6 @@ A modern, responsive portfolio website showcasing my professional journey, skill
 - **JavaScript (ES6+)**: Modern JavaScript with arrow functions, destructuring, and async/await for dynamic interactions
 - **Bootstrap 5.3.3**: Powerful CSS framework for rapid responsive development and pre-built components
 - **AOS (Animate On Scroll)**: Library for adding smooth scroll-triggered animations to elements
-- **GLightbox**: Lightweight and customizable lightbox library for displaying images and videos
 - **Pure Counter**: JavaScript library for creating animated counters with smooth transitions
 - **Bootstrap Icons**: Comprehensive icon library that matches Bootstrap's design system
 
