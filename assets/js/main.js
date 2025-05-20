@@ -179,9 +179,20 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /**
-   * Initiate Pure Counter
+   * Initialize Pure Counter
    */
-  new PureCounter();
+  new PureCounter({
+    selector: ".purecounter",
+    start: 0,
+    duration: 2,
+    once: true,
+    pulse: false,
+    decimals: 0,
+    legacy: false,
+    filesizing: false,
+    currency: false,
+    separator: false
+  });
 
   /**
    * 'Gravity Pull' effect for Get Started button
