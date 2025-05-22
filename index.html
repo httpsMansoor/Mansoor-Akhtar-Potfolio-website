@@ -30,6 +30,8 @@
   <!-- Pure Counter CSS -->
   <link href="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.0.0/dist/purecounter_vanilla.css" rel="stylesheet">
   <!-- Swiper CSS -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -44,6 +46,7 @@
         <ul>
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#resume">Resume</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#services">Services</a></li>
@@ -116,6 +119,94 @@
       </div>
     </section>
 
+    <!-- Skills Section -->
+    <section class="skills-content" id="skills">
+        <div class="container">
+            <div class="skills-title">
+                <h4>Skills</h4>
+                <p>Technical expertise and tools</p>
+            </div>
+            <div class="skills">
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fa-brands fa-python"></i>
+                            <h4>Python</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-brands fa-js"></i>
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-code"></i>
+                            <h4>C++</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-brands fa-html5"></i>
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <h4>CSS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/django.svg" alt="Django">
+                            <h4>Django</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <h4>Bootstrap</h4>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nextdotjs.svg" alt="Next.js">
+                            <h4>Next.js <span>(Learning)</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fa-solid fa-database"></i>
+                            <h4>SQLite</h4>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL">
+                            <h4>PostgreSQL</h4>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/firebase.svg" alt="Firebase">
+                            <h4>Firebase</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Software</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fa-solid fa-code"></i>
+                            <h4>VS Code</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h4>Dev C++</h4>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-file-word"></i>
+                            <h4>MS Word</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Resume Section -->
     <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
@@ -166,63 +257,98 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
-
         <div class="section-header">
-          <h2>Portfolio</h2>
-          <p>My Recent Projects</p>
+          <h2>Projects</h2>
+          <p>My Recent Work</p>
         </div>
 
         <div class="row">
-
           <div class="col-lg-4 col-md-6 portfolio-item">
-            <a href="assets/img/portfolio/portfolio-1.jpg" target="_blank"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></a>
-            <div class="portfolio-info">
-              <h4>University Club Management System</h4>
-              <p>A comprehensive web application for managing university clubs, events, and announcements. Built with Django and Bootstrap.</p>
-              <a href="https://github.com/httpsMansoor/university-club-management" class="details-link"><i class="bi bi-github"></i> GitHub Repo</a>
+            <div class="project-card">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="University Club Management System">
+              <div class="project-info">
+                <h4>University Club Management System</h4>
+                <p>A comprehensive web application for managing university clubs, events, and announcements. Built with Django and Bootstrap.</p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Django</span>
+                  <span class="tech-tag">Bootstrap</span>
+                  <span class="tech-tag">SQLite</span>
+                </div>
+                <a href="https://github.com/httpsMansoor/university-club-management" class="details-link"><i class="bi bi-github"></i> GitHub Repo</a>
+              </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
-            <a href="assets/img/portfolio/portfolio-2.jpg" target="_blank"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></a>
-            <div class="portfolio-info">
-              <h4>Django Real Estate Project</h4>
-              <p>A full-featured real estate website built with Django that allows users to browse property listings, contact realtors, and manage their accounts. Uses Python, Django, HTML/CSS, JavaScript, and Bootstrap.</p>
-              <a href="https://github.com/httpsMansoor/Django-Real-Estate-WebApp" class="details-link"><i class="bi bi-github"></i> GitHub Repo</a>
+            <div class="project-card">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="Django Real Estate Project">
+              <div class="project-info">
+                <h4>Django Real Estate Project</h4>
+                <p>A full-featured real estate website built with Django that allows users to browse property listings, contact realtors, and manage their accounts.</p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Django</span>
+                  <span class="tech-tag">HTML/CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Bootstrap</span>
+                </div>
+                <a href="https://github.com/httpsMansoor/Django-Real-Estate-WebApp" class="details-link"><i class="bi bi-github"></i> GitHub Repo</a>
+              </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
-            <a href="assets/img/portfolio/portfolio-3.jpg" target="_blank"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Personality Prediction System Screenshot"></a>
-            <div class="portfolio-info">
-              <h4>Personality Prediction System</h4>
-              <p>A web-based personality prediction system that utilizes machine learning techniques to predict personality traits based on online behavior, using Flask, Python, and Hugging Face transformer models.</p>
-              <a href="https://github.com/httpsMansoor/Personality-Prediction-System-using-Twitter-X" class="details-link"><i class="bi bi-github"></i> GitHub Repo</a>
+            <div class="project-card">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Personality Prediction System">
+              <div class="project-info">
+                <h4>Personality Prediction System</h4>
+                <p>A web-based personality prediction system that utilizes machine learning techniques to predict personality traits based on online behavior.</p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">ML</span>
+                  <span class="tech-tag">Hugging Face</span>
+                </div>
+                <a href="https://github.com/httpsMansoor/Personality-Prediction-System-using-Twitter-X" class="details-link"><i class="bi bi-github"></i> GitHub Repo</a>
+              </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
-            <a href="assets/img/portfolio/portfolio-4.jpg" target="_blank"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="Student Management System Screenshot"></a>
-            <div class="portfolio-info">
-              <h4>Student Management System</h4>
-              <p>A comprehensive command-line application for managing student records with robust validation, flexible data storage, and improved user experience, built with Python.</p>
-              <a href="https://github.com/httpsMansoor/Student-Management-System-CLI" class="details-link"><i class="bi bi-github"></i> GitHub Repo</a>
+            <div class="project-card">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="Student Management System">
+              <div class="project-info">
+                <h4>Student Management System</h4>
+                <p>A comprehensive command-line application for managing student records with robust validation and flexible data storage.</p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">CLI</span>
+                  <span class="tech-tag">File I/O</span>
+                </div>
+                <a href="https://github.com/httpsMansoor/Student-Management-System-CLI" class="details-link"><i class="bi bi-github"></i> GitHub Repo</a>
+              </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item">
-            <a href="assets/img/portfolio/portfolio-5.jpg" target="_blank"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="To-Do App Screenshot"></a>
-            <div class="portfolio-info">
-              <h4>To-Do App</h4>
-              <p>A simple and interactive command-line To-Do application built using Python, allowing users to create, read, update, and delete tasks from the terminal.</p>
-              <a href="https://github.com/httpsMansoor/Todo-App" class="details-link"><i class="bi bi-github"></i> GitHub Repo</a>
+            <div class="project-card">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="To-Do App">
+              <div class="project-info">
+                <h4>To-Do App</h4>
+                <p>A simple and interactive command-line To-Do application allowing users to create, read, update, and delete tasks from the terminal.</p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">CLI</span>
+                  <span class="tech-tag">File I/O</span>
+                </div>
+                <a href="https://github.com/httpsMansoor/Todo-App" class="details-link"><i class="bi bi-github"></i> GitHub Repo</a>
+              </div>
             </div>
           </div>
-
-        </div><!-- End portfolio items row -->
-
+        </div>
       </div>
-    </section><!-- End Portfolio Section -->
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
