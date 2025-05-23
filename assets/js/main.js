@@ -233,4 +233,53 @@ document.addEventListener('DOMContentLoaded', () => {
     getStartedButton.style.transition = 'transform 0.3s ease-out'; // Smooth transition
   }
 
-}); 
+});
+
+// Mobile Navigation
+document.addEventListener('DOMContentLoaded', () => {
+  const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+  const navbar = document.querySelector('#navmenu');
+  
+  if (mobileNavToggle) {
+    mobileNavToggle.addEventListener('click', (e) => {
+      navbar.classList.toggle('navbar-mobile');
+      navbar.classList.toggle('active');
+      mobileNavToggle.classList.toggle('active');
+      mobileNavToggle.classList.toggle('bi-list');
+      mobileNavToggle.classList.toggle('bi-x');
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!navbar.contains(e.target) && !mobileNavToggle.contains(e.target)) {
+        navbar.classList.remove('navbar-mobile', 'active');
+        mobileNavToggle.classList.remove('active');
+        mobileNavToggle.classList.add('bi-list');
+        mobileNavToggle.classList.remove('bi-x');
+      }
+    });
+
+    // Close menu when clicking nav links
+    const navLinks = navbar.querySelectorAll('a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navbar.classList.remove('navbar-mobile', 'active');
+        mobileNavToggle.classList.remove('active');
+        mobileNavToggle.classList.add('bi-list');
+        mobileNavToggle.classList.remove('bi-x');
+      });
+    });
+  }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const getStartedBtn = document.querySelector('.hero .btn-get-started');
+  
+  if (getStartedBtn) {
+    // Keep only click handler if needed
+    getStartedBtn.addEventListener('click', function() {
+      // Handle smooth scroll to about section
+      document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+});
